@@ -44,17 +44,16 @@ li {
   /* color: #ffffff; */
   font-weight: 600;
   line-height: normal;
-  background: linear-gradient(to bottom, #fff, #bbb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f5f5f5;
   padding: 10px;
 }
 .active {
-  border-bottom: 3px solid #194c33;
+  border-bottom: 3px solid #9999;
 }
 .title h1 {
   font-size: 72px;
-  background: linear-gradient(to bottom, #00549e, #850ab0 );
+  /* background: linear-gradient(to bottom, #00549e, #850ab0 ); */
+  background: linear-gradient(to bottom, #ffff, #f5f5f5 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
@@ -85,13 +84,14 @@ li {
     flex-direction: column;
     background-image: url(../public/assets/images/jebu-img.jpeg);
     background-size: cover;
-    background-attachment: local;
+    /* background-attachment: fixed; */
+    box-shadow: inset 0 0 0 2000px rgba(20, 19, 20, 0.3);
+
   }
   .title h1 {
     margin-top: 140px;
     font-size: 45px;
-    /* background: linear-gradient(to bottom, #194c33, #07112d); */
-    background: linear-gradient(to bottom, #00549e, #850ab0 );
+    background: linear-gradient(to bottom, #ffff, #f5f5f5 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -108,21 +108,17 @@ li {
     height: 100%;
   }
   .passage {
-    font-size: 14px;
-    background: linear-gradient(to bottom, #00549e, #850ab0 );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 600;
-    /* max-width: 18em; */
+    font-size: 16px;
     padding-right: 40px;
     width: 100%;
+    color: #f5f5f5;
   }
   .role {
     font-size: 14px;
-    color: #00549e;
+    color: #f5f5f5;
     font-weight:bold;
   }
   .socials a {
-    color: #07112d;
+    color: #f5f5f5;
   }
 }
