@@ -22,7 +22,7 @@ const menuA = [
   },
   {
     id: 4,
-    title: "Career Objectves",
+    title: "About Me",
     link: "/about",
   },
 ];
@@ -53,7 +53,7 @@ export const Navbar = () => {
           );
         })}
         <li onClick={showModal} className="">
-          Contact
+          Contacts
         </li>
       </nav>
       <Modal

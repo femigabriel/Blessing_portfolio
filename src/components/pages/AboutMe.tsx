@@ -5,7 +5,7 @@ export default function AboutMe() {
     <div className="p-5 pt-10 lg:px-20 flex items-center justify-center">
       <div>
         <h1 className="text-center text-[18px] uppercase font-semibold">
-          Career Objectives
+        My  Career Objectives
         </h1>
         <div className="lg:text-[18px] sm:text-[14px] text-gray-100 lg:w-[45em] sm:w-[38em] leading-relaxed  mt-20 tracking-widest mb-10">
           <p>
