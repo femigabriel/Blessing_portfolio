@@ -77,6 +77,7 @@ li {
 .vector {
   position: relative;
   bottom: 20px;
+  display: block;
 }
 @media (max-width: 820px) {
   li {
@@ -119,14 +120,17 @@ li {
     font-size: 16px;
     padding-right: 40px;
     width: 100%;
-    color: #f7ddd4;
+    /* color: #f7ddd4; */
   }
   .role {
     font-size: 14px;
-    color: #f7ddd4;
+    /* color: #f7ddd4; */
     font-weight: bold;
   }
   .socials a {
     color: #f5f5f5;
+  }
+  .vector {
+    display: none;
   }
 }
