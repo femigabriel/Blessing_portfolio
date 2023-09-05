@@ -32,7 +32,10 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #07112d;
 }
-button, [type='button'], [type='reset'], [type='submit'] {
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
   background-color: #999;
   background-image: none;
@@ -41,7 +44,6 @@ li {
   list-style-type: none;
   font-size: 18px;
   cursor: pointer;
-  /* color: #ffffff; */
   font-weight: 600;
   line-height: normal;
   color: #f5f5f5;
@@ -52,14 +54,14 @@ li {
 }
 .title h1 {
   font-size: 72px;
-  /* background: linear-gradient(to bottom, #00549e, #850ab0 ); */
-  background: linear-gradient(to bottom, #ffff, #f5f5f5 );
+  /* background: linear-gradient(to bottom, #ffff, #f5f5f5 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  background: linear-gradient(98deg, #d45816 4.43%, #6f88fc 43.48%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
-  /* linear-gradient( 278deg, #0d818a, #00549e, #3232a5, #850ab0 ) */
-
-  /* width: em; */
 }
 .cover {
   width: 450px;
@@ -68,11 +70,13 @@ li {
   /* transform: rotate(deg); */
 }
 .frame {
-  /* width: 450px;
-  height: 450px; */
   display: block;
   border-radius: 16px;
   border: 10px solid #f5f5f5;
+}
+.vector {
+  position: relative;
+  bottom: 20px;
 }
 @media (max-width: 820px) {
   li {
@@ -87,14 +91,17 @@ li {
     background-size: cover;
     /* background-attachment: fixed; */
     box-shadow: inset 0 0 0 2000px rgba(20, 19, 20, 0.3);
-
   }
   .title h1 {
     margin-top: 140px;
     font-size: 45px;
-    background: linear-gradient(to bottom, #ffff, #f5f5f5 );
+    background: linear-gradient(to bottom, #F7DDD4, #f5f5f5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* background: linear-gradient(98deg, #d45816 4.43%, #6f88fc 43.48%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
   }
   .frame {
     display: none;
@@ -112,12 +119,12 @@ li {
     font-size: 16px;
     padding-right: 40px;
     width: 100%;
-    color: #f5f5f5;
+    color: #f7ddd4;
   }
   .role {
     font-size: 14px;
-    color: #f5f5f5;
-    font-weight:bold;
+    color: #f7ddd4;
+    font-weight: bold;
   }
   .socials a {
     color: #f5f5f5;
