@@ -54,10 +54,11 @@ li {
 }
 .title h1 {
   font-size: 72px;
-  background: linear-gradient(to bottom, #194c33, #bbb);
+  background: linear-gradient(to bottom, #00549e, #850ab0 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
+  /* linear-gradient( 278deg, #0d818a, #00549e, #3232a5, #850ab0 ) */
 
   /* width: em; */
 }
@@ -89,7 +90,8 @@ li {
   .title h1 {
     margin-top: 140px;
     font-size: 45px;
-    background: linear-gradient(to bottom, #194c33, #07112d);
+    /* background: linear-gradient(to bottom, #194c33, #07112d); */
+    background: linear-gradient(to bottom, #00549e, #850ab0 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -107,7 +109,9 @@ li {
   }
   .passage {
     font-size: 14px;
-    color: #07112d;
+    background: linear-gradient(to bottom, #00549e, #850ab0 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 600;
     /* max-width: 18em; */
     padding-right: 40px;
@@ -115,8 +119,8 @@ li {
   }
   .role {
     font-size: 14px;
-    color: #07112d;
-    font-weight: 700;
+    color: #00549e;
+    font-weight:bold;
   }
   .socials a {
     color: #07112d;
