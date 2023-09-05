@@ -19,7 +19,13 @@ export default function Resume() {
               <p className=" tracking-[3px] text-gray-400">
                 Email:
                 <span className="ml-2 font-normal">
-                  jebutublessing@gmailcom, +2348165655677, +2348081977497
+                  jebutublessing@gmailcom
+                </span>
+              </p>
+              <p className=" tracking-[3px] text-gray-400">
+                Phone No:
+                <span className="ml-2 font-normal">
+                  +2348165655677, +2348081977497
                 </span>
               </p>
               <p className=" tracking-[3px] text-gray-400">
