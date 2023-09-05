@@ -51,7 +51,7 @@ export const Home = () => {
                     href="https://www.facebook.com/jebutu.blessing"
                     className="flex"
                   >
-                    <FacebookFilled className="mr-2 mt-1 rounded-full" />
+                    <FacebookFilled className="mr-2 rounded-full" />
                     Facebook
                   </a>
                 </div>

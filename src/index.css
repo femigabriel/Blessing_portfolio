@@ -65,13 +65,14 @@ li {
   width: 450px;
   height: 620px;
   /* clip-path: circle(); */
+  /* transform: rotate(deg); */
 }
 .frame {
   /* width: 450px;
   height: 450px; */
   display: block;
-  border-radius: 10px;
-  border: 5px solid #f5f5f5;
+  border-radius: 16px;
+  border: 10px solid #f5f5f5;
 }
 @media (max-width: 820px) {
   li {
