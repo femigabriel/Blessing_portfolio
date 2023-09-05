@@ -24,8 +24,8 @@ export default function Resume() {
               </p>
               <p className=" tracking-[3px] text-gray-400">
                 Phone No:
-                <span className="ml-2 font-normal">
-                  +2348165655677, +2348081977497
+                <span className="ml-2 font-normal phone">
+                  +2348165655677
                 </span>
               </p>
               <p className=" tracking-[3px] text-gray-400">
