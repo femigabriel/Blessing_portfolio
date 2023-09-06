@@ -35,7 +35,7 @@ export const Home = () => {
           </div>
           <div>
             <h3 className="role font-bold lg:text-[26x]  mb-10 leading-widest">
-              Accountant, Finance Officer, Internal Audit/Control
+              Accountant & Internal Audit/Control
             </h3>
 
             <p className="passage lg:text-[16px] sm:text=[12px] leading-relaxed lg:w-[38em]  mt-5 tracking-relaxed mb-10">
